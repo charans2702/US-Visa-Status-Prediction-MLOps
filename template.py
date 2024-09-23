@@ -4,6 +4,7 @@ from pathlib import Path
 project_name="US_Visa"
 
 list=[
+
     f"{project_name}/__init__.py",
     f"{project_name}/components/__init__.py",
     f"{project_name}/components/data_ingestion.py",
@@ -32,6 +33,7 @@ list=[
     "setup.py",
     "config/model.yaml",
     "config/schema.yaml",
+    
 ]
 
 for filepath in list:
